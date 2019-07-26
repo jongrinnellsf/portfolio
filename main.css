@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;  
+  }
+  
+body {
+    font-family: 'Quattrocento', serif; 
+    text-align: center;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
+}
+
+nav, footer {
+    padding: 1%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.hamburger {
+    float: right;
+    margin-right: 5%;
+    color: black;
+    border: 0;
+    cursor: pointer;
+    font-size: 30px;
+    outline: none;
+}
+
+.mobile > li {
+    float: left;
+    font-size: 28px;
+    margin-top: 8px;
+}
+
+.menu {
+    display: none;
+}
+
+header {
+    padding: 20% 0;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+section {
+    padding: 8% 5%;
+}
+
+nav, header, .projects, .about {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.projects_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects_container div {
+    height: 100%;
+    width: 100%;
+    margin: 2%;
+    border: 0.2px solid #d8d8d8;
+    padding: 2%;
+}
+
+img {
+    width: 325px;
+    height: 250px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: none;
+    transition-duration: 2s;
+}
+
+i {
+    height:1rem;
+    font-size: 1.5em;
+    padding: 2%;
+}
+
+p {
+    line-height: 1.5;
+}
+
+footer > .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+  
+.social li {
+    list-style-type: none;
+}
+
+a:link, a:visited {
+    color: #444;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1100px) {
+
+    .projects_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .projects_container div {
+        height: 100%;
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+        float: right;
+        margin-right: 5%;
+    }
+
+    .menu > li {
+        padding-left: 20px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    img {
+        width: 350px;
+        height: 250px;
+    }
+    .project_item p {
+        padding: 3%;
+    }
+} 
