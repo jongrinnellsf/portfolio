@@ -209,9 +209,9 @@ button {
     width: 45%;
     height: 50px;
     font-family: 'serif';
-    font-size: 12px;
+    font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
     font-weight: 500;
     color: #000;
     border: none;
