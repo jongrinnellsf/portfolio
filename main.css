@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;  
-  }
+}
   
 body {
     text-align: center;
@@ -20,24 +20,29 @@ nav {
     background-color: #040D14;
 }
 
-
 ul li {
     display: inline;
     list-style-type: none;
 }
 
 .mobile {
+    float: left;
     font-size: 18px;
 }
 
 .menu {
-    font-size: 21px;
+    float: right;
+    margin-right: 5%;
+    font-size:18px;
+}
+
+.menu span {
+    padding: 10px;
 }
 
 .menu li a {
     color: white;
     text-decoration: none;
-    padding: 10px;
 }
 
 .menu a:hover {
@@ -110,11 +115,6 @@ h2 {
     padding-top: 3%;
 }
 
-nav, header, .projects, .about {
-    width: 100%;
-    margin: 0 auto;
-}
-
 .projects_container {
     display: flex;
     flex-direction: column;
@@ -128,8 +128,6 @@ nav, header, .projects, .about {
 
 .projects {
     background-color: #21CE99;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .projects_container div {
@@ -179,10 +177,6 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 3%;
-}
-  
-.social li {
-    list-style-type: none;
 }
 
 .mobile a, .projects>h2, .menu {
@@ -263,19 +257,6 @@ button:hover {
     img {
         width: 350px;
         height: 250px;
-    }
-
-    .project_item p {
-        padding: 3%;
-    }
-
-    .mobile {
-        float: left;
-    }
-
-    .menu {
-        float: right;
-        margin-right: 5%;
     }
 
     .menu, .mobile {
