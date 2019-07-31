@@ -234,6 +234,16 @@ button:hover {
     .projects_container div {
         width: 80%;
     }
+
+    .social i {
+        height: 1.5rem;
+        font-size: 2.0em;
+        padding: 2%;
+    }
+
+    button {
+        font-size: 11px;
+    }
 }
 
 @media screen and (min-width: 1150px) {
@@ -247,6 +257,7 @@ button:hover {
         margin-left: 5%;
         margin-right: 5%;
         padding-bottom: 3%;
+        height: 580px;
     }
 
     .projects_container div {
@@ -270,5 +281,12 @@ button:hover {
     button {
         margin-top: 8%;
         margin-bottom: 0;
+        font-size: 11px;
+    }
+
+    .social i {
+        height: 1.5rem;
+        font-size: 2.0em;
+        padding: 2%;
     }
 }
