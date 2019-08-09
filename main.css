@@ -4,7 +4,7 @@
   
 body {
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 hr {
@@ -106,7 +106,7 @@ ul li {
 }
 
 header {
-    padding: 35% 18% 25%;
+    padding: 35% 5% 25%;
 }
 
 h2 {
@@ -128,6 +128,8 @@ h2 {
 
 .projects {
     background-color: #21CE99;
+
+
 }
 
 .projects_container div {
@@ -288,5 +290,25 @@ button:hover {
         height: 1.5rem;
         font-size: 2.0em;
         padding: 2%;
+    }
+}
+
+@media screen and (min-width: 1747px) {
+
+    .projects_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 3%;
+        height: 780px;
+    }
+
+    .projects_container div {
+        height: 100%;
+        width: 100%;
     }
 }
