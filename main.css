@@ -258,7 +258,6 @@ button:hover {
         margin-left: 5%;
         margin-right: 5%;
         padding-bottom: 3%;
-        height: 580px;
     }
 
     .projects_container div {
@@ -290,6 +289,10 @@ button:hover {
         font-size: 2.0em;
         padding: 2%;
     }
+
+    div button {
+        margin-bottom: 5%;
+    }
 }
 
 @media screen and (min-width: 1747px) {
@@ -303,11 +306,14 @@ button:hover {
         margin-left: 5%;
         margin-right: 5%;
         padding-bottom: 3%;
-        height: 780px;
     }
 
     .projects_container div {
         height: 100%;
         width: 100%;
+    }
+    
+    div button {
+        margin-bottom: 5%;
     }
 }
